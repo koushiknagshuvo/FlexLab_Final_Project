@@ -1,0 +1,101 @@
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+    font-size: 3.2vh;
+    text-align: center;
+    line-height: 2.8rem;
+  }
+  p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7rem;
+  }
+  .Hero_section_info_button {
+    justify-content: center;
+  }
+  .Hero_img {
+    padding-top: 5rem;
+    background-color: #e7f7fb;
+  }
+
+  .Services_section_cart p {
+    text-align: start;
+  }
+  .Services_section_Out_cart {
+    padding-top: -10px;
+  }
+
+  .Project_section .ViewAllbtn_container {
+    display: flex;
+    justify-content: center;
+  }
+  .Project_cart_inerclass h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    padding-top: 20px;
+  }
+  .Project_cart_inerclass {
+    padding: 10px 10px;
+  }
+  .Educational_work_Section_iner_cart_items h5,
+  .Educational_work_Section_iner_cart_items_paragraph p {
+    text-align: start;
+  }
+  .Educational_work_Section_iner_cart_items_paragraph h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+
+  /* .Social_Media_slyder */
+
+  .Social_Media_slyder .item h5 {
+    margin-left: -80px;
+    padding-top: 10px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Hero_section .Hero_img {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 25px;
+    line-height: 2.5rem;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6rem;
+  }
+  .nav-item {
+    padding: 0px !important;
+    margin: 2px !important;
+  }
+  .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  .nav-item .nav-link {
+    font-size: 13px;
+  }
+
+  .btn_Sign-UP {
+    padding: 8px 30px;
+  }
+  .btn_Sign-UP a {
+    font-size: 12px;
+  }
+
+  .Hero_section_info_button {
+    padding-top: 10px !important;
+  }
+  .Services_section_cart {
+    margin-top: -35px;
+  }
+}
