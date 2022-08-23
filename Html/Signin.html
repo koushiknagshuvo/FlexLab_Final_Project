@@ -1,162 +1,225 @@
 <!-- Edited By Imran -->
+<!-- Also Edit by koushik -->
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font Awesome link End -->
 
-  <!-- font Awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- font Awesome link End -->
+    <!-- Boxicon link Start -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Boxicon link Start -->
-  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!--  Boxicon link End -->
+    <!-- OwlCarousel2 start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!--  Boxicon link End -->
-  <!-- OwlCarousel2 start -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- OwlCarousel2 End -->
 
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- OwlCarousel2 End -->
+    <link rel="stylesheet" href="CSS Plugins/animate.css" />
 
-  <link rel="stylesheet" href="CSS Plugins/animate.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/Responsive.css" />
+    <link rel="stylesheet" href="../CSS/signin.css" />
 
-  <link rel="stylesheet" href="../CSS/style.css" />
-  <link rel="stylesheet" href="../CSS/Responsive.css" />
-  <link rel="stylesheet" href="../CSS/signin.css" />
+    <title>FlexLab</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/icon/Fabicon.svg"
+    />
+  </head>
 
-  <title>FlexLab</title>
-  <link rel="shortcut icon" type="image/png" href="./images/icon/Fabicon.svg" />
-</head>
+  <body>
+    <!-- Navbar section start ==============================================================-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container navigation my-3">
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../images/icon/Logo.svg" alt="" srcset=""
+        /></a>
 
-<body>
-  <!-- Navbar section start ==============================================================-->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container navigation my-3">
-      <a class="navbar-brand" href="../index.html"><img src="../images/icon/Logo.svg" alt="" srcset="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="#">Vector Assets</a>
+            </li>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
-          <li class="nav-item px-2">
-            <a class="nav-link" aria-current="page" href="#">Vector Assets</a>
-          </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#Services_section">Theme & Templates</a>
+            </li>
 
-          <li class="nav-item px-2">
-            <a class="nav-link" href="#Services_section">Theme & Templates</a>
-          </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#Skills_section">Brand Identity</a>
+            </li>
 
-          <li class="nav-item px-2">
-            <a class="nav-link" href="#Skills_section">Brand Identity</a>
-          </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link d-flex align-items-center"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                UI/UX<i class="bx bx-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#Educational_work_Section">
+                    Web theme</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Educational_work_Section"
+                    >Mobile theme</a
+                  >
+                </li>
+              </ul>
+            </li>
 
-          <li class="nav-item dropdown px-2">
-            <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              UI/UX<i class="bx bx-chevron-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="#Educational_work_Section">
-                  Web theme</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#Educational_work_Section">Mobile theme</a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item px-2">
-            <a class="nav-link" href="#Project_section">NFT <span id="tag" class="badge mx-1">New</span></a>
-          </li>
-        </ul>
-        <div class="d-flex contact_button">
-          <button class="btn_Sign-IN" type="submit">
-            <a href="Signin.html">Sign In</a>
-          </button>
-          <button class="btn_Sign-UP" type="submit">
-            <a href="../Html/Register.html">Register</a>
-          </button>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#Project_section"
+                >NFT <span id="tag" class="badge mx-1">New</span></a
+              >
+            </li>
+          </ul>
+          <div class="d-flex contact_button">
+            <button class="btn_Sign-IN" type="submit">
+              <a href="Signin.html">Sign In</a>
+            </button>
+            <button class="btn_Sign-UP" type="submit">
+              <a href="../Html/Register.html">Register</a>
+            </button>
+          </div>
         </div>
       </div>
+    </nav>
+    <!-- Navbar section end =========================================================-->
+
+    <!-- Sign in Form Start from Here -->
+    <div class="Sign_in_form container">
+      <form>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="Email"
+            placeholder="Enter your Email"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            class="form-control"
+            id="Password"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="Check" />
+          <label class="form-check-label" for="Check">Remember Password</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-  </nav>
-  <!-- Navbar section end =========================================================-->
+    <!-- Sign in Form End Here -->
 
-  <!-- Sign in Form Start from Here -->
-  <div class="Sign_in_form container">
-    <form>
-      <div class="mb-3">
-        <input type="email" class="form-control" id="Email" placeholder="Enter your Email" />
-      </div>
-      <div class="mb-3">
-        <input type="password" class="form-control" id="Password" placeholder="Enter your Password" />
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="Check" />
-        <label class="form-check-label" for="Check">Remember Password</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
-  <!-- Sign in Form End Here -->
+    <!-- Copyright section start from here -->
+    <section class="footer container py-2">
+      <footer>
+        <hr />
+        <p class="cp-text text-center text-black-80">
+          © Copyright 2022 FlexLab. All rights reserved.
+        </p>
+      </footer>
+    </section>
+    <!--  Contact Form  Section End-->
 
-  <!-- Copyright section start from here -->
-  <section class="footer container py-2">
-    <footer>
-      <hr />
-      <p class="cp-text text-center text-black-80">
-        © Copyright 2022 FlexLab. All rights reserved.
-      </p>
-    </footer>
-  </section>
-  <!--  Contact Form  Section End-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Boxicon link Start -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!-- Boxicon link end -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery cdn -->
+    <!-- OwlCarousel2 start-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- OwlCarousel2 End -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <!-- Boxicon link Start -->
-  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-  <!-- Boxicon link end -->
-  <!-- jquery cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- jquery cdn -->
-  <!-- OwlCarousel2 start-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- OwlCarousel2 End -->
+    <!-- Ejs start   -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
-  <!-- Ejs start   -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('ZdhcFASZ862BAFfks');
+      })();
+    </script>
+    <!-- Ejs End -->
 
-  <script type="text/javascript">
-    (function () {
-      emailjs.init('ZdhcFASZ862BAFfks');
-    })();
-  </script>
-  <!-- Ejs End -->
-
-  <script src="./js/script.js"></script>
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
