@@ -11,6 +11,7 @@
   --paragraph-color: #707070;
   --Gray-light-background: #f4f7fa;
   --Hero-Bg-color: #e0e8fc;
+  --Timer-bg-color: #071942;
 }
 /* All root properties are here ===============================================*/
 
@@ -274,15 +275,126 @@ ul li {
   font-weight: 600;
 }
 .Top_Seller_section_seller_info h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
 }
 .Top_Seller_section_seller_info h6 {
   color: var(--paragraph-color);
-  font-size: 13px;
+  font-size: 12px;
 }
-/* Top_Seller_section end here =========================================================*/
 
+/* Top_Seller_section end here =========================================================*/
+/* Explore Categories Start from here ================================================= */
+
+.Explore_Categories {
+  background-color: var(--cart-color);
+  height: 190vh;
+  width: auto;
+  margin: 50px 0px;
+}
+.Explore_Categories_iner_section {
+  padding-top: 100px;
+}
+/* Explore Categories end ============================================================= */
+/* Flash_Sale start From here ==========================================================*/
+.Flash_Sale {
+  background-image: url(../images/Flash_Sale_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 50vh;
+  width: auto;
+  position: relative;
+}
+.Flash_Sale_iner_section {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.Flash_Sale_iner_section h4 {
+  color: var(--color-whiite);
+  font-size: 28px;
+  font-weight: 600;
+}
+.Flash_Sale_iner_section h6 {
+  color: var(--color-whiite);
+  letter-spacing: 1px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.Flash_Sale_iner_section #demo {
+  color: var(--color-whiite);
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  z-index: 100;
+  padding: 4px 15px;
+}
+#demo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--Timer-bg-color);
+  height: 42px;
+  width: 268px;
+  z-index: -1;
+  border-radius: 8px;
+}
+/* Flash_Sale End here =================================================================*/
+/* UpFooter_Setion start from here===================================================== */
+.UpFooter_Setion {
+  background-image: url(../images/UpFooterSectionBg_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.Upfooter_Section_button {
+  display: flex;
+  align-items: center;
+}
+/* UpFooter_Setion End here =========================================================== */
+/* Footer Section Start from here ===================================================== */
+.footer {
+  background-color: var(--main-color);
+  height: 400px;
+  width: auto;
+}
+.footer_iner_Section {
+  padding: 50px 0px;
+}
+.footer_Flexlab_address h4,
+.footer_Flexlab_address p {
+  color: var(--color-whiite);
+  padding-left: 10px;
+}
+.footer_Flexlab_address h4 {
+  padding-top: 20px;
+}
+.footer_socialMedia_section img {
+  height: 40px;
+  width: auto;
+  padding-left: 12px;
+  margin-top: 10px;
+}
+.All_page_Navlinks h4 {
+  color: var(--color-whiite);
+}
+.All_page_links_a a img {
+  padding-right: 5px;
+}
+.All_page_links_a a {
+  color: var(--color-whiite);
+  padding-top: 12px;
+}
+/* Footer Sction End Here ============================================================= */
 .Contact_Form_slyder_Right .form-group input {
   border-radius: 5px;
   margin: 20px 0px;
