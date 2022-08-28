@@ -58,7 +58,7 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="./images/icon/Fabicon.svg"
+      href="../images/icon/Fabicon.svg"
     />
   </head>
 
@@ -129,43 +129,45 @@
           </ul>
           <div class="d-flex contact_button">
             <button class="btn_Sign-IN" type="submit">
-              <a href="Signin.html">Sign In</a>
+              <a href="./Signin.html">Sign In</a>
             </button>
             <button class="btn_Sign-UP" type="submit">
-              <a href="../Html/Register.html">Register</a>
+              <a href="./Register.html">Register</a>
             </button>
           </div>
         </div>
       </div>
     </nav>
     <!-- Navbar section end =========================================================-->
-
     <!-- Sign in Form Start from Here -->
-    <div class="Sign_in_form container">
-      <form>
-        <div class="mb-3">
-          <input
-            type="email"
-            class="form-control"
-            id="Email"
-            placeholder="Enter your Email"
-          />
-        </div>
-        <div class="mb-3">
-          <input
-            type="password"
-            class="form-control"
-            id="Password"
-            placeholder="Enter your Password"
-          />
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="Check" />
-          <label class="form-check-label" for="Check">Remember Password</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
+    <section class="Sign_in_form_section">
+      <div class="Sign_in_form container">
+        <form>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="Password"
+              placeholder="Enter your Password"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <a class="float-end" href="./Register.html"
+              >Don't Have An Account Then Create it
+            </a>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
     <!-- Sign in Form End Here -->
     <!-- Footer start from here -->
     <footer class="footer">
@@ -217,6 +219,13 @@
                   alt=""
                   srcset=""
                 />Categories</a
+              >
+              <a href="../Html/Upload.html"
+                ><img
+                  src="./images/icon/ios-arrow-down.svg"
+                  alt=""
+                  srcset=""
+                />Upload</a
               >
               <a href="#"
                 ><img
@@ -374,6 +383,6 @@
     </script>
     <!-- Ejs End -->
 
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

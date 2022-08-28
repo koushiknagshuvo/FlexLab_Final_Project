@@ -51,8 +51,7 @@
     <link rel="stylesheet" href="CSS Plugins/animate.css" />
 
     <link rel="stylesheet" href="../CSS/style.css" />
-    <link rel="stylesheet" href="../CSS/Responsive.css" />
-    <link rel="stylesheet" href="../CSS/signin.css" />
+    <link rel="stylesheet" href="../CSS/Upload.css" />
 
     <title>FlexLab</title>
     <link
@@ -129,10 +128,10 @@
           </ul>
           <div class="d-flex contact_button">
             <button class="btn_Sign-IN" type="submit">
-              <a href="./Signin.html">Sign In</a>
+              <a href="Signin.html">Sign In</a>
             </button>
             <button class="btn_Sign-UP" type="submit">
-              <a href="./Register.html">Register</a>
+              <a href="../Html/Register.html">Register</a>
             </button>
           </div>
         </div>
@@ -140,42 +139,49 @@
     </nav>
     <!-- Navbar section end =========================================================-->
 
-    <!-- Sign in Form Start from Here -->
-    <section class="Sign_in_form_section">
-      <div class="Sign_in_form container">
-        <form>
-          <div class="mb-3">
-            <input
-              type="name"
-              class="form-control"
-              id="Name"
-              placeholder="Enter your Name"
-            />
-          </div>
-          <div class="mb-3">
-            <input
-              type="email"
-              class="form-control"
-              id="Email"
-              placeholder="Enter your Email"
-            />
-          </div>
-          <div class="mb-3">
-            <input
-              type="password"
-              class="form-control"
-              id="Password"
-              placeholder="Enter your Password"
-            />
-          </div>
-          <div class="mb-3 form-check float-end">
-            <a href="./Signin.html">Already Have an Account Then Login</a>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+    <!-- upload Section Start from Here -->
+
+    <section class="Upload_page">
+      <div class="Upload_page_Title container">
+        <h3>
+          Upload Your Digital Assets Here and <br />
+          Create Your collection
+        </h3>
+        <h6>Upload file</h6>
+        <p>Drag or choose your file to upload</p>
+      </div>
+
+      <div class="upload_Section container">
+        <form action="" method="POST">
+          <input type="file" multiple />
+
+          <p>
+            <box-icon
+              class="Upload_icon"
+              name="upload"
+              color="#707070"
+            ></box-icon>
+            PNG, GIF, WEBP, JPG Cover image
+          </p>
+        </form>
+      </div>
+      <div class="upload_file_section">
+        <form action="" method="POST">
+          <input type="file" multiple />
+
+          <p>
+            <box-icon
+              class="Upload_icon"
+              name="upload"
+              color="#707070"
+            ></box-icon>
+            Upload Your Assets File Here
+          </p>
+          <button type="submit">Upload</button>
         </form>
       </div>
     </section>
-    <!-- Sign in Form End Here -->
+    <!-- upload Section End Here -->
     <!-- Footer start from here -->
     <footer class="footer">
       <div class="footer_iner_Section container px-4">

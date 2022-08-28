@@ -70,7 +70,7 @@ ul li {
   border-radius: 15px;
   border: 3px solid var(--border);
   margin: 0px 10px;
-  box-shadow: 10px 10px 15px 15px #acacac13;
+  /* box-shadow: 10px 10px 15px 15px #acacac13; */
 }
 
 .btn_Sign-UP {
@@ -80,7 +80,7 @@ ul li {
   color: var(--color-whiite);
   font-weight: 500;
   border-radius: 15px;
-  box-shadow: 10px 10px 15px 15px #acacac13;
+  /* box-shadow: 10px 10px 15px 15px #acacac13; */
 }
 
 .btn_Sign-UP a {
@@ -109,14 +109,31 @@ ul li {
 /* All Default and necessary styling End here ======================================*/
 
 /* Nav bar start  from here ========================================================*/
+.navbar {
+  background-color: var(--Hero-Bg-color);
+  z-index: 1000;
+}
+.s {
+  background-color: transparent;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  background-color: var(--color-whiite);
+}
 
-.Main_section_hero {
-  background-image: url(../images/Hero_bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  height: 140vh;
-  width: auto;
+.navbar {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+  background-color: var(--color-whiite);
+  box-shadow: 5px -1px 12px -5px grey;
 }
 
 .dropdown-menu {
@@ -159,6 +176,15 @@ ul li {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-image: url(../images/Hero_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 140vh;
+  width: auto;
+}
+.Hero_section_info {
+  padding-top: 120px;
 }
 .Hero_section_info a {
   color: var(--main-color);

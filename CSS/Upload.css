@@ -1,0 +1,84 @@
+.Upload_page {
+  background-color: var(--Hero-Bg-color);
+  height: 150vh;
+  width: auto;
+}
+
+.Upload_page_Title {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.Upload_page_Title h3 {
+  font-size: 28px;
+  line-height: 2.5rem;
+  padding-top: 30px;
+}
+.Upload_page_Title h6 {
+  padding-top: 20px;
+}
+.upload_Section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.upload_file_section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+form {
+  width: 500px;
+  height: 150px;
+  background-color: var(--color-whiite);
+  border-radius: 10px;
+}
+form p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color: var(--paragraph-color);
+  padding-bottom: 25px;
+}
+
+form input {
+  position: absolute;
+  top: 30px;
+  left: 40%;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 20%;
+  outline: none;
+  opacity: 0;
+}
+form button {
+  width: 100%;
+  border: none;
+  background-color: var(--color-whiite);
+  padding: 10px 45px;
+  color: var(--color-black);
+  font-weight: 500;
+  border-radius: 15px;
+  border: 3px solid var(--border);
+  transition: 0.5s ease;
+}
+
+form button:hover {
+  background: var(--main-color);
+  color: var(--color-whiite);
+}
+form button:active {
+  border: 0;
+}
+.Upload_icon {
+  padding-top: 4px;
+  color: var(--paragraph-color);
+}

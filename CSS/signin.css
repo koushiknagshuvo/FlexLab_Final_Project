@@ -1,23 +1,26 @@
-body {
-  background-image: url(../images/SignIn_BG.png);
+.Sign_in_form_section {
+  background-image: url(../images/Hero_bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   height: 140vh;
   width: auto;
+  padding-top: 190px;
+  padding-right: 7px;
 }
-
 .Sign_in_form {
   width: 42%;
-  margin-top: 90px;
   padding: 10vh;
   border-radius: 20px;
-
   margin-bottom: 500px;
   background-color: var(--color-whiite);
   box-shadow: 8px 17px 22px -5px rgba(246, 246, 246, 0.62);
   -webkit-box-shadow: 8px 17px 22px -5px rgba(246, 246, 246, 0.62);
   -moz-box-shadow: 8px 17px 22px -5px rgba(246, 246, 246, 0.62);
+}
+
+.Sign_in_form a {
+  font-size: 14px;
 }
 #Name,
 #Email,
