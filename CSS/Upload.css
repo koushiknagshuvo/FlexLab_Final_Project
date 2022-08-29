@@ -57,7 +57,7 @@ form input {
   width: 20%;
   height: 20%;
   outline: none;
-  opacity: 0;
+  /* opacity: 0; */
 }
 form button {
   width: 100%;
